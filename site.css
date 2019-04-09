@@ -1,0 +1,113 @@
+body{
+    font-family: "Crimson Text", "Times New Roman", serif;
+    background-color: #F2FFFC;
+    font-size: 120%;
+    line-height: 1.5;
+}
+.titulo-principal {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    text-align:center;
+    color:#FFFFFF;
+    background-color:#851944; 
+    padding: 25px;
+    border-bottom: 10px solid #000000;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+h2{
+    font-family: "Open Sans Condensed", "Arial", sans-serif; 
+    font-size: 30px;
+    clear: both;
+}
+p{
+    text-align: justify;
+    margin: 20px 0;
+}
+.barra-navegacao {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    padding: 20px;
+    text-align: center;
+}
+#rodape-pagina {
+    background-color: #000000;
+    color: #F2FFFC;
+    padding: 20px;
+    clear: both;
+}
+main a{
+    color: #851944;
+}
+.barra-navegacao a {
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+.barra-navegacao ul{
+    list-style-type: none;
+    text-transform: lowercase;
+}
+.barra-navegacao h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+.icones-sociais li{
+    display: inline-block;
+}
+.icones-sociais a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    color: transparent;
+}
+.github {
+    background-image: url(../imagens/github.png)
+}
+.twitter {
+    background-image: url(../imagens/twitter.png)
+}
+.linkedin {
+    background-image: url(../imagens/linkedin.png)
+}
+.container {
+	width: 720px;
+	margin: auto;
+	padding: 30px 0;
+    padding-bottom: 80px;
+}
+main {
+    float: left;
+    width: 85%;
+}
+.perfil-foto, .barra-navegacao {
+    float: right;
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+}
+.perfil-foto {
+    position: absolute;
+	top: 0;
+	right: 0;
+}
+.barra-navegacao {
+    width: 15%;
+	position: relative;
+	top: 310px;
+}
+#rodape-pagina {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.titulo-nav {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    font-style: bold;
+}
+
